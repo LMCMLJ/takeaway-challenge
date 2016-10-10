@@ -1,7 +1,7 @@
 require 'menu'
 
 describe Menu do
-
+    
   before :each do
     @menu = Menu.new
     @menu_list = @menu.menu_list
